@@ -42,12 +42,7 @@ To execute
 python3 descargador.py
 ```
 
-Configure cookies.txt
-
-download the "Get cookies.txt LOCALLY" entension from browser
-Export your youtube cookies, you can either name it cookies.txt and overwrite the one on the folder, or copy and paste the contents of it
-
 
 you can put either youtube single video or entire playlist with url, the program makes a folder with the name of the playlist when you download one, the artist is gotten from either the channel name, or video metadata
 
-NOTE: without cookies the maximum playlist lenght is around 100
+NOTE:maximum playlist lenght is around 100
