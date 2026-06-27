@@ -10,7 +10,13 @@ CARPETA_SALIDA="musica"
 if not os.path.exists(CARPETA_SALIDA):
 	os.makedirs(CARPETA_SALIDA)
 def get_info(url):
-	opciones = {"quiet": True, "extract_flat":True}
+	opciones = {
+		"quiet": True,
+		"extract_flat": True,
+		"ignoreerrors": True,
+		"playlistend": 99999,
+		"cookiefile": "cookies.txt",
+	}
 
 	with yt_dlp.YoutubeDL(opciones) as ydl:
 		info = ydl.extract_info(url, download=False)
