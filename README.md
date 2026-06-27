@@ -43,5 +43,4 @@ python3 descargador.py
 ```
 
 
-you can put either youtube single video or entire playlist with url, the program makes a folder with the name of the playlist when you download one
-the artist is gotten from either the channel name, or video metadata
+you can put either youtube single video or entire playlist with url, the program makes a folder with the name of the playlist when you download one, the artist is gotten from either the channel name, or video metadata
