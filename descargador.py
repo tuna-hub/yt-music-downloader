@@ -37,6 +37,7 @@ def descargar(url, titulo, artista, miniatura):
 	opciones = {
 		"format": "bestaudio/best",
 		"outtmpl": os.path.join(CARPETA_SALIDA, f"{nombre_archivo}.%(ext)s"),
+		"nooverwrites": True,
 		"postprocessors": [{
 			"key": "FFmpegExtractAudio",
 			"preferredcodec": "mp3",
